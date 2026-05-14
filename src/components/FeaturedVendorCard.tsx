@@ -9,7 +9,6 @@ export default function FeaturedVendorCard({ vendor }: { vendor: any }) {
       href={`/estudio/${vendor.id}`}
       className="rounded-[10px] overflow-hidden relative cursor-pointer min-h-[290px] flex flex-col justify-end transition-transform duration-250 hover:-translate-y-1 border border-white/5 group"
     >
-      {/* Portada Real */}
       {vendor.cover_url ? (
         <img 
           src={vendor.cover_url} 
